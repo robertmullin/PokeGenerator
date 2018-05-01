@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(img/Lilycove_City.jpg);
+}
+
+.infoContainer {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    background: url(img/pokeResultBgrnd.png) no-repeat center;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pokeImg {
+    height: 60%;
+    padding: 50px 0px;
+}
+
+#pokeImg img {
+    width: 250px;
+}
+
+#name {
+    width: 50%;
+    height: 25%;
+    padding: 50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+#button {
+    width: 300px;
+    height: 70px;
+    background-color: green;
+    color: floralwhite;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: solid 5px lightgreen;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 3vh;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
